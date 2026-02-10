@@ -1,0 +1,10 @@
+cadena = input("Ingresa una cadena de texto: ")
+
+print(f"¿Termina con punto?: {cadena.endswith('.')}")
+
+print(f"¿Es solo alfabética?: {cadena.isalpha()}")
+
+print(f"¿Contiene una 'x'?: {'x' in cadena}")
+
+nueva_cadena = cadena.replace('e', 'E')
+print(f"Nueva cadena: {nueva_cadena}")
