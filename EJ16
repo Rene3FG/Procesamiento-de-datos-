@@ -1,0 +1,10 @@
+    num1 = int(input("Ingresa el primer número: "))
+    num2 = int(input("Ingresa el segundo número: "))
+    
+    
+    inicio = min(num1, num2)
+    fin = max(num1, num2)
+    
+    suma = sum(range(inicio, fin + 1))
+    
+    print(f"La
