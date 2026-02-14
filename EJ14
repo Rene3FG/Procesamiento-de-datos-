@@ -1,0 +1,11 @@
+    inferior = int(input("Ingresa el límite inferior: "))
+    superior = int(input("Ingresa el límite superior: "))
+    paso = int(input("Ingresa el valor de paso: "))
+    
+    if paso == 0:
+        print("Error: El paso no puede ser cero.")
+    else:
+        print(f"Números desde {inferior} hasta {superior} con paso {paso}:")
+        for num in range(inferior, superior + 1, paso):
+            print(num)
+            
