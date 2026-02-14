@@ -1,0 +1,4 @@
+    numero = int(input("Ingresa tu número de la suerte: "))
+    cantidad_digitos = len(str(abs(numero)))
+    print(f"Tu número de la suerte es: {numero}")
+    print(f"Tiene {cantidad_digitos} dígito(s)")
