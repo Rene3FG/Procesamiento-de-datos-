@@ -1,0 +1,2 @@
+    numero = int(input("Ingresa tu número de la suerte: "))
+    print(f"Tu número de la suerte es: {numero}")
