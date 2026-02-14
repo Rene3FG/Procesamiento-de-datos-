@@ -1,0 +1,9 @@
+
+for i in range(0, 50):
+    print(i, end=" ")
+print()  # Salto de línea al final
+
+for i in range(0, 50):
+    print(i, end=" ")
+    if (i + 1) % 10 == 0:
+        print()  # Salto de línea cada 10 números
